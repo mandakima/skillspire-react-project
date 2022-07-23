@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Public+Sans&display=swap");
+
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Public Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -9,13 +11,61 @@ body {
   background-color: #fafafa;
 }
 
+a {
+  color: #ff01bb;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.paragraph a:hover {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*MAIN CARD STYLING*/
+
+.main-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  width: 1475px;
+  overflow: clip;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.main-card img {
+  object-fit: fill;
+  height: 100%;
+}
+
+.main-card .paragraph {
+  color: black;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 90%;
+}
+
+.main-card a {
+  color: #ff01bb;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /*CARD STYLING*/
 
 .card {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-  color: red;
   display: inline-block;
   width: 475px;
   overflow: clip;
@@ -30,64 +80,83 @@ img {
   width: 100%;
 }
 
-/* TYPES OF PILLS */
-.pill-red {
-  background-color: red;
-  border: none;
-  color: black;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  border-radius: 16px;
-  font-size: 0.75rem;
-}
-
-.pill-blue {
-  background-color: blue;
-  border: none;
-  color: black;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  border-radius: 16px;
-  font-size: 0.75rem;
-}
-
-.pill-green {
-  background-color: green;
-  border: none;
-  color: black;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  border-radius: 16px;
-  font-size: 0.75rem;
-}
-
 .title {
   display: block;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   letter-spacing: 0.5px;
-  font-size: 1.5rem;
-  color: black;
-  margin: 10px;
+  font-size: 2rem;
+  color: #493ffc;
+  margin: 20px;
 }
 
 .paragraph {
   color: black;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
+  margin: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  width: 90%;
+}
+
+/* TYPES OF PILLS */
+.pill-black {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 0.75rem;
+}
+
+.pill-red {
+  background-color: #ff1654;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 0.75rem;
+}
+
+.pill-blue {
+  background-color: #cbedff;
+  border: none;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 0.75rem;
+}
+
+.pill-green {
+  background-color: #b2f07f;
+  border: none;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 0.75rem;
 }
